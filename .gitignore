@@ -1,0 +1,43 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Local backups and database/runtime data
+backups/
+*.bak
+*.bak-*
+*.backup
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+/data/
+/uploads/
+/storage/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+
+# OS and IDE
+.DS_Store
+.vscode/
+.idea/
